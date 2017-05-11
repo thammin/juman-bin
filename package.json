@@ -1,0 +1,48 @@
+{
+  "name": "juman-bin",
+  "version": "0.0.0",
+  "description": "juman wrapper that makes it seamlessly available as a local dependency",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node lib/install.js",
+    "compile": "node lib/install.js --compile",
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thammin/juman-bin.git"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "files": [
+    "index.js",
+    "lib"
+  ],
+  "keywords": [
+    "nlp",
+    "japanese",
+    "juman",
+    "morphological",
+    "analyzer"
+  ],
+  "author": "Paul Young <thammin@live.co.uk> (https://github.com/thammin)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thammin/juman-bin/issues"
+  },
+  "homepage": "https://github.com/thammin/juman-bin#readme",
+  "dependencies": {
+    "bin-build": "^2.2.0",
+    "bin-wrapper": "^3.0.2",
+    "logalot": "^2.1.0"
+  },
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "bin-check": "^4.0.1",
+    "execa": "^0.6.3",
+    "minimist": "^1.2.0",
+    "os-filter-obj": "^1.0.3",
+    "tempy": "^0.1.0"
+  }
+}
