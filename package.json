@@ -1,6 +1,6 @@
 {
   "name": "juman-bin",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "juman wrapper that makes it seamlessly available as a local dependency",
   "main": "index.js",
   "scripts": {
