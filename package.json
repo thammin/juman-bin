@@ -35,14 +35,13 @@
   "dependencies": {
     "bin-build": "^2.2.0",
     "bin-wrapper": "^3.0.2",
+    "minimist": "^1.2.0",
     "logalot": "^2.1.0"
   },
   "devDependencies": {
     "ava": "^0.19.1",
     "bin-check": "^4.0.1",
     "execa": "^0.6.3",
-    "minimist": "^1.2.0",
-    "os-filter-obj": "^1.0.3",
     "tempy": "^0.1.0"
   }
 }
